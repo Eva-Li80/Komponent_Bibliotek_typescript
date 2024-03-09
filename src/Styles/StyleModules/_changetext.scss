@@ -1,0 +1,10 @@
+.changetext {
+    @include flexStandard();
+    margin: 20px;
+  input {
+    @include input();
+  }
+  button {
+    @include button();
+  }
+}

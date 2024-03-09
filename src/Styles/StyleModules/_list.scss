@@ -1,0 +1,35 @@
+.list-container{
+    
+  
+    .list{
+
+        
+        ul{
+            background-color: rgb(180, 176, 178);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin: 10px;
+            flex-wrap: wrap;
+        }
+
+        li{
+            list-style: none;
+            margin: 20px;
+            @include flexdirection(column);
+          
+            .des{
+                width: 200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            img{
+                width: 200px;
+                height: 150px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -7,6 +7,9 @@ const F_J = () => {
     <div>
       <Header text="F - J Components" />
       <Sidebar />
+      <div className="main">
+        
+      </div>
     </div>
   );
 };

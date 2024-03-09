@@ -1,6 +1,7 @@
 
 //variables and funtions
 @import "./Functions/mixin.scss";
+@import "./Variables/colors";
 
 
 //base and layout
@@ -16,5 +17,9 @@
 @import "./StyleModules/count";
 @import "./StyleModules/countreduser";
 @import "./StyleModules/movies";
+@import "./StyleModules/changetext";
+@import "./StyleModules/list";
+@import "./StyleModules/pizza";
+
 
 

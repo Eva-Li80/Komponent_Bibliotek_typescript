@@ -1,0 +1,46 @@
+.pizzamenu {
+  margin-left: 200px;
+  // margin-right: 300px;
+
+  @include flexdirection(row);
+  flex-wrap: wrap;
+
+  .pizzacontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(180, 176, 178);
+    margin: 10px;
+  }
+
+  .des {
+    width: 250px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .img {
+    width: 200px;
+    height: 150px;
+ 
+  }
+
+}
+
+.pizzacalc {
+  margin-top: 40px;
+
+  .details-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(241, 239, 239);
+    padding: 50px;
+    margin-top: 10px;
+  }
+}

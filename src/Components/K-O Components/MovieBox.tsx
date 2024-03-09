@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import data from "../../assets/movie.json";
 import MovieTable from "./MovieTable";
-import { Movie } from "./types/movies";
+import { Movie } from "./Types k-o/movies";
 
 type MovieBoxProps = {
     title: string

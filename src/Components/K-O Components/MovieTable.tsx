@@ -1,5 +1,5 @@
 
-import { MovieTableProps } from './types/movies'
+import { MovieTableProps } from './Types k-o/movies'
 
 const MovieTable = ({data}:MovieTableProps) => {
   return (

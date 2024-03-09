@@ -1,8 +1,9 @@
 .main {
- @include flexwrap(row);
-  margin: 0px 0px 0px 200px;
+  @include flexwrap(row);
+  margin: 100px 100px 100px 300px; 
+  padding: 20px;
   background-color: rgb(107, 137, 133);
   border: 5px solid rgb(184, 181, 181);
   box-shadow: rgb(122, 116, 119) 0 0 50px 0;
-  height: 100vh;
+  height: auto
 }
