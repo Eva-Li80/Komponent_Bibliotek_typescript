@@ -1,0 +1,20 @@
+{
+    "person":[
+        {
+            "name":"Kalle",
+            "age":"25",
+            "hobby":"träna"
+        },
+        {
+            "name":"Nils",
+            "age":"38",
+            "hobby":"läsa"
+        },
+        {
+            "name":"Bertil",
+            "age":"77",
+            "hobby":"golf"
+           
+        }
+    ]
+}

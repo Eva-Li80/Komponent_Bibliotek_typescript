@@ -1,0 +1,26 @@
+{
+    "movies":[
+        {
+            "title":"The Shawshank Redemption",
+            "year":"1994",
+            "genre":"Drama",
+            "director":"Frank Darabont",
+            "img":"https://m.media-amazon.com/images/I/815qtzaP9iL._SL1500_.jpg"
+        },
+        {
+            "title":"The Godfather",
+            "year":"1972",
+            "genre":"Crime",
+            "director":"Francis Ford Coppola",
+            "img":"https://macaulay.cuny.edu/seminars/drabik09/images/4/4d/Godfather.jpg"
+        },
+        {
+            "title":"The Dark Knight",
+            "year":"2008",
+            "genre":"Action",
+            "director":"Christopher Nolan",
+            "img":"https://as1.ftcdn.net/v2/jpg/06/25/60/00/1000_F_625600094_DjF8GiamuveCkvaeDcv6S2t9RDXEcPoi.jpg"
+        }
+    ]
+}
+

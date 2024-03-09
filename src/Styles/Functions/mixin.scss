@@ -1,0 +1,96 @@
+@mixin flexStandard(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexdirection($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+  }
+  
+  @mixin flexwrap($direction) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+    flex-wrap: wrap;
+  }
+  
+  @mixin flexdirectionColumn() {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  @mixin flexdirectionRow() {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;;
+  }
+
+  @mixin flexalign(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @mixin button() {
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: $color-green;
+    color: $color-white;
+    cursor: pointer;
+  }
+  
+  @mixin input() {
+    width: 150px;
+    height: 40px;
+    margin-right: 30px;
+    padding-left: 10px;
+  }
+  
+  @mixin colorinfo() {
+    height: 100%;
+    list-style: none;
+    background-color: $color-gray-lighter;
+    border: 2px solid $color-green-darker;
+    margin: 0 20px;
+    padding: 30px;
+  }
+  
+  @mixin title() {
+    color: $color-green-darker;
+    font-size: 30px;
+  }
+  
+  @mixin texttitle() {
+    font-size: 2em;
+    font-weight: bold;
+    color: $color-green-darker;
+    padding: 20px;
+  }
+  
+  @mixin text() {
+    font-size: 1.5em;
+    color: $color-green-darker;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  
+  @mixin border() {
+    background-color: $color-gray-lighter;
+    border: 2px solid $color-green-darker;
+  }
+  
+  @mixin buttons($color){
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    background-color: $color;
+    color: $color-white;
+    cursor: pointer;
+  }

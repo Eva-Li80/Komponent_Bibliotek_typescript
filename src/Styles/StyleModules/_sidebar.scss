@@ -1,0 +1,11 @@
+.sidebar {
+  @include flexalign();
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  background-color: rgb(250, 233, 202);
+  color: gray;
+}

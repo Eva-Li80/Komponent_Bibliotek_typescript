@@ -1,0 +1,22 @@
+.header-container{
+    @include flexdirection(row);
+    height: 130px;
+    width: 100%;
+    z-index: 1;
+    margin-left: 100px;
+    top: 0;
+    background: linear-gradient(to right,gray,rgb(175, 168, 169),rgb(165, 163, 163),gray, rgb(195, 181, 183), rgb(202, 201, 201));
+
+    .title{
+        margin: 0 100px;
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 10px 20px;
+        color: rgb(61, 103, 97);
+        border: 2px solid rgb(150, 149, 149);
+        text-align: center;
+        letter-spacing: 2px;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: rgb(250, 239, 244) 0 0 20px 0px;
+    }
+}
